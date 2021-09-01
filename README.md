@@ -1,5 +1,5 @@
 # 54876-tfc-speculative-vcs
-How to create  a speculative plan in TFC in via Pull Request in vcs backed workspace
+How to create  a speculative plan in TFC via a Pull Request in a VCS backed workspace
 
 
 ## Pre-requirements
