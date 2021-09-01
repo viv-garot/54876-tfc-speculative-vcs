@@ -52,7 +52,7 @@ _sample_
 export token='YOUR-GENERATED-TOKEN'
 ```
 
-* Show the run (update <YOUR-RUN-ID>)
+* Show the run (update `<YOUR-RUN-ID>`)
 
 ```
 curl  --header "Authorization: Bearer $token" --header "Content-Type: application/vnd.api+json" --request GET https://app.terraform.io/api/v2/runs/run-<YOUR-RUN-ID> | python -m json.tool
@@ -202,7 +202,7 @@ curl  --header "Authorization: Bearer $token" --header "Content-Type: applicatio
 }
 ```
 
-* Get the plan details. From the previous command output get the plan id and run (update <YOUR-PLAN-ID>) :
+* Get the plan details. From the previous command output get the plan id and run (update `<YOUR-PLAN-ID>`) :
 
 ```
 curl  --header "Authorization: Bearer $token" --header "Content-Type: application/vnd.api+json" --request GET https://app.terraform.io//api/v2/plans/plan-<YOUR-PLAN-ID>/json-output-redacted | python -m json.tool
